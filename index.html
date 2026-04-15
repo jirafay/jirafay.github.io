@@ -113,6 +113,56 @@
             margin: 0 10px;
             text-decoration: none;
         }
+        /* Carousel Styles */
+        .carousel-container {
+            width: 100%;
+            overflow-x: auto;
+            padding-bottom: 20px;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+        .carousel-track {
+            display: flex;
+            gap: 20px;
+            padding: 10px 0;
+            width: max-content;
+        }
+        .carousel-card {
+            background: var(--bg-color);
+            border-top: 4px solid var(--primary-color);
+            border-radius: 8px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .carousel-card h4 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            line-height: 1.3;
+        }
+        .carousel-card .date {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .carousel-card a {
+            text-decoration: none;
+            color: var(--white);
+            background: var(--primary-color);
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            text-align: center;
+            display: inline-block;
+        }
+        .carousel-card a:hover {
+            background: #7a1526;
+        }
     </style>
 </head>
 <body>
@@ -174,6 +224,58 @@
                     <p><strong>Technical Implementation Project</strong></p>
                     <p>A comprehensive technical assignment demonstrating practical application of management information systems concepts, version control, and code execution.</p>
                     <a href="https://github.com/jirafay/mis521-jirafay-assignment5" target="_blank" class="btn">View GitHub Repository</a> </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Merit Achievements & Honors</h2>
+            <p>Swipe or scroll to view recent awards and leadership recognitions.</p>
+            
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    
+                    <div class="carousel-card">
+                        <h4>Spring 2025 Dean's List</h4>
+                        <div class="date">June 12, 2025</div>
+                        <a href="https://ua.meritpages.com/stories/Jahanzeb-Rafay-of-Auburn-Named-to-University-of-Alabama-Spring-2025-Deans-List/160625701" target="_blank">View Achievement</a>
+                    </div>
+
+                    <div class="carousel-card">
+                        <h4>Omicron Delta Kappa Honor Society</h4>
+                        <div class="date">April 18, 2025</div>
+                        <a href="https://ua.meritpages.com/stories/Jahanzeb-Rafay-of-Auburn-Inducted-into-UA-Omicron-Delta-Kappa-Honor-Society/158355830" target="_blank">View Achievement</a>
+                    </div>
+
+                    <div class="carousel-card">
+                        <h4>Mortar Board Honor Society</h4>
+                        <div class="date">April 18, 2025</div>
+                        <a href="https://ua.meritpages.com/stories/Jahanzeb-Rafay-of-Auburn-Inducted-into-UA-Mortar-Board-Honor-Society/158355631" target="_blank">View Achievement</a>
+                    </div>
+
+                    <div class="carousel-card">
+                        <h4>Capstone Men and Women</h4>
+                        <div class="date">April 4, 2025</div>
+                        <a href="https://ua.meritpages.com/stories/Jahanzeb-Rafay-of-Auburn-Chosen-to-Serve-on-Capstone-Men-and-Women-at-UA/157810679" target="_blank">View Achievement</a>
+                    </div>
+
+                    <div class="carousel-card">
+                        <h4>Fall 2023 President's List</h4>
+                        <div class="date">January 24, 2024</div>
+                        <a href="https://ua.meritpages.com/stories/Jahanzeb-Rafay-of-Auburn-Named-to-University-of-Alabama-Fall-2023-Presidents-List/124951308" target="_blank">View Achievement</a>
+                    </div>
+
+                    <div class="carousel-card">
+                        <h4>Spring 2023 Dean's List</h4>
+                        <div class="date">June 23, 2023</div>
+                        <a href="https://ua.meritpages.com/stories/Jahanzeb-Rafay-of-Auburn-Named-to-University-of-Alabama-Spring-2023-Deans-List/111396136" target="_blank">View Achievement</a>
+                    </div>
+
+                    <div class="carousel-card">
+                        <h4>Fall 2022 President's List</h4>
+                        <div class="date">January 27, 2023</div>
+                        <a href="https://ua.meritpages.com/stories/Jahanzeb-Rafay-of-Auburn-Named-to-UA-Presidents-List/100810842" target="_blank">View Achievement</a>
+                    </div>
+
+                </div>
             </div>
         </section>
 
