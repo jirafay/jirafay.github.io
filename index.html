@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahanzeb Rafay | Academic Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #9E1B32; /* Crimson */
+            --text-color: #333333;
+            --bg-color: #f4f4f4;
+            --white: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .section {
+            background: var(--white);
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 10px;
+        }
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--primary-color);
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: var(--bg-color);
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid var(--primary-color);
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .btn:hover {
+            background: #7a1526;
+        }
+        .strengths-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .strengths-list li {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: var(--white);
+            margin-top: 40px;
+        }
+        footer a {
+            color: var(--white);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Jahanzeb Rafay</h1>
+            <p>Economics & Finance | The University of Alabama</p>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section class="section">
+            <div class="profile-container">
+                <img src="headshot.jpg" alt="Jahanzeb Rafay Professional Headshot" class="profile-pic">
+                <div>
+                    <h2>About Me</h2>
+                    <p>Hello, my name is Jahanzeb Rafay, and I am an undergraduate student at the University of Alabama with a deep focus on economics and finance. I am particularly passionate about behavioral economics, game theory, and the complexities of global financial markets.</p>
+                    <p>My academic journey has driven me to explore the intersection of economic theory and technological innovation. Whether I am analyzing the impact of bounded rationality on consumer decisions or assessing the clinical adoption of predictive AI tools, I strive to approach complex problems with data-driven rigor and intellectual curiosity.</p>
+                    <p><strong>Personal Mission Statement:</strong> To leverage statistical analysis, economic theory, and innovative technologies to solve complex institutional challenges and drive informed decision-making.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Clifton Strengths / VIA Character Strengths</h2>
+            <ul class="strengths-list">
+                <li>Analytical</li>
+                <li>Strategic</li>
+                <li>Learner</li>
+                <li>Achiever</li>
+                <li>Restorative</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Academic Portfolio</h2>
+            <div class="portfolio-grid">
+                
+                <div class="card">
+                    <h3>UH 208: The Scholar's Life After Graduation</h3>
+                    <p><strong>Book Review #2 & Reflection</strong></p>
+                    <p>A comprehensive review and critical reflection analyzing post-graduate academic philosophies and career trajectories.</p>
+                    <a href="#" class="btn">Read Reflection</a> </div>
+
+                <div class="card">
+                    <h3>MIS 598: White Paper</h3>
+                    <p><strong>Barriers to Clinical Adoption of Predictive AI</strong></p>
+                    <p>A rigorous research paper detailing implementation gaps, technical performance benchmarks, and adoption barriers of AI tools in large U.S. hospital systems.</p>
+                    <a href="#" class="btn">View White Paper</a> </div>
+
+                <div class="card">
+                    <h3>Financial Modeling & Analysis</h3>
+                    <p><strong>Portfolio Optimization Project</strong></p>
+                    <p>An applied quantitative project utilizing Excel Solver to construct an optimal financial portfolio focused on risk minimization and standard deviation management.</p>
+                    <a href="#" class="btn">View Project</a> </div>
+
+            </div>
+        </section>
+
+        <section class="section" style="text-align: center;">
+            <h2>Curriculum Vitae</h2>
+            <p>Click below to view my comprehensive academic and professional resume.</p>
+            <a href="resume.pdf" target="_blank" class="btn">View Master Resume</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p><strong>Contact Information</strong></p>
+        <p>
+            <a href="mailto:your_crimson_email@crimson.ua.edu">Crimson Email</a> | 
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a> |
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
